@@ -47,8 +47,8 @@
                         echo "<td>".$dato['id']."</td>";
                         echo "<td>".$dato['categoria']."</td>";
                        
-                        echo "<td><a href='../login/editarCategoria/".$dato['id']."'>Editar</a></td>";
-                        echo "<td><a href='../login/eliminarCategoria/".$dato['id']."'>Eliminar</a></td>";
+                        echo "<td style='text-align:center;'><a href='../login/editarCategoria/".$dato['id']."'><img src='../Assets/img/editar.png' style='width: 25px;'></a></td>";
+                        echo "<td style='text-align:center;'><a href='../login/eliminarCategoria/".$dato['id']."'><img src='../Assets/img/borrar.png' style='width: 25px;'></a></td>";
                       
                         echo "</tr>";
                     }

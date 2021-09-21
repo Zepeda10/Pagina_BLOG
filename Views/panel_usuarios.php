@@ -50,8 +50,8 @@
                         echo "<td>".$dato['usuario']."</td>";
                         echo "<td>".$dato['pass']."</td>";
                         echo "<td>".$dato['rol']."</td>";
-                        echo "<td><a href='../usuarios/editar/".$dato['id']."'>Editar</a></td>";
-                        echo "<td><a href='../usuarios/eliminar/".$dato['id']."'>Eliminar</a></td>";
+                        echo "<td style='text-align:center;'><a href='../usuarios/editar/".$dato['id']."'><img src='../Assets/img/editar.png' style='width: 25px;'></a></td>";
+                        echo "<td style='text-align:center;'><a href='../usuarios/eliminar/".$dato['id']."'><img src='../Assets/img/borrar.png' style='width: 25px;'></a></td>";
                       
                         echo "</tr>";
                     }
